@@ -15,7 +15,7 @@ body{
 }
 
 button{
-     max-width: 15rem;
+     max-width: 20rem;
      font-size: 1.2rem;
      font-weight: var(--fw-light);
      color: var(--violet);
@@ -106,7 +106,7 @@ i:hover{
 
 @media (max-width: 1200px){
      .company-logo{
-          max-width: 30rem;
+          max-width: 40rem;
      }
      .company-logo img{
           width: 40%;
@@ -131,6 +131,7 @@ i:hover{
      }
      button{
           padding: .5rem 2rem;
+          font-size: 1rem;
      }
      .text-content h1{
           font-size: 2rem;
@@ -138,9 +139,5 @@ i:hover{
      .text-content p{
           font-size: 1.1rem;
           max-width: 50ch;
-     }
-     button{
-          font-size: 1rem;
-          text-align: center;
      }
 }
